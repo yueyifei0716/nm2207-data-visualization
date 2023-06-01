@@ -1,0 +1,353 @@
+year,sex,type_of_course,no_of_graduates
+1993,Males,Accountancy,295
+1993,Males,Business & Administration,282
+1993,Males,Law,92
+1993,Males,"Natural, Physical & Mathematical Sciences",404
+1993,Males,Medicine,95
+1993,Males,Dentistry,14
+1993,Males,Health Sciences,10
+1993,Males,Information Technology,264
+1993,Females,Accountancy,396
+1993,Females,Business & Administration,708
+1993,Females,Law,93
+1993,Females,"Natural, Physical & Mathematical Sciences",588
+1993,Females,Medicine,61
+1993,Females,Dentistry,11
+1993,Females,Health Sciences,40
+1993,Females,Information Technology,215
+1994,Males,Accountancy,271
+1994,Males,Business & Administration,413
+1994,Males,Law,87
+1994,Males,"Natural, Physical & Mathematical Sciences",374
+1994,Males,Medicine,99
+1994,Males,Dentistry,23
+1994,Males,Health Sciences,14
+1994,Males,Information Technology,294
+1994,Females,Accountancy,378
+1994,Females,Business & Administration,733
+1994,Females,Law,99
+1994,Females,"Natural, Physical & Mathematical Sciences",566
+1994,Females,Medicine,66
+1994,Females,Dentistry,6
+1994,Females,Health Sciences,39
+1994,Females,Information Technology,196
+1995,Males,Accountancy,289
+1995,Males,Business & Administration,365
+1995,Males,Law,94
+1995,Males,"Natural, Physical & Mathematical Sciences",460
+1995,Males,Medicine,93
+1995,Males,Dentistry,20
+1995,Males,Health Sciences,12
+1995,Males,Information Technology,306
+1995,Females,Accountancy,395
+1995,Females,Business & Administration,788
+1995,Females,Law,100
+1995,Females,"Natural, Physical & Mathematical Sciences",572
+1995,Females,Medicine,48
+1995,Females,Dentistry,8
+1995,Females,Health Sciences,46
+1995,Females,Information Technology,193
+1996,Males,Accountancy,262
+1996,Males,Business & Administration,358
+1996,Males,Law,75
+1996,Males,"Natural, Physical & Mathematical Sciences",449
+1996,Males,Medicine,97
+1996,Males,Dentistry,24
+1996,Males,Health Sciences,9
+1996,Males,Information Technology,362
+1996,Females,Accountancy,433
+1996,Females,Business & Administration,848
+1996,Females,Law,106
+1996,Females,"Natural, Physical & Mathematical Sciences",541
+1996,Females,Medicine,53
+1996,Females,Dentistry,13
+1996,Females,Health Sciences,59
+1996,Females,Information Technology,194
+1997,Males,Accountancy,227
+1997,Males,Business & Administration,448
+1997,Males,Law,90
+1997,Males,"Natural, Physical & Mathematical Sciences",437
+1997,Males,Medicine,107
+1997,Males,Dentistry,20
+1997,Males,Health Sciences,9
+1997,Males,Information Technology,370
+1997,Females,Accountancy,453
+1997,Females,Business & Administration,808
+1997,Females,Law,97
+1997,Females,"Natural, Physical & Mathematical Sciences",600
+1997,Females,Medicine,40
+1997,Females,Dentistry,10
+1997,Females,Health Sciences,60
+1997,Females,Information Technology,218
+1998,Males,Accountancy,264
+1998,Males,Business & Administration,461
+1998,Males,Law,70
+1998,Males,"Natural, Physical & Mathematical Sciences",422
+1998,Males,Medicine,106
+1998,Males,Dentistry,24
+1998,Males,Health Sciences,8
+1998,Males,Information Technology,377
+1998,Females,Accountancy,487
+1998,Females,Business & Administration,869
+1998,Females,Law,103
+1998,Females,"Natural, Physical & Mathematical Sciences",678
+1998,Females,Medicine,42
+1998,Females,Dentistry,12
+1998,Females,Health Sciences,69
+1998,Females,Information Technology,296
+1999,Males,Accountancy,297
+1999,Males,Business & Administration,349
+1999,Males,Law,92
+1999,Males,"Natural, Physical & Mathematical Sciences",401
+1999,Males,Medicine,104
+1999,Males,Dentistry,18
+1999,Males,Health Sciences,14
+1999,Males,Information Technology,355
+1999,Females,Accountancy,482
+1999,Females,Business & Administration,905
+1999,Females,Law,77
+1999,Females,"Natural, Physical & Mathematical Sciences",674
+1999,Females,Medicine,41
+1999,Females,Dentistry,14
+1999,Females,Health Sciences,77
+1999,Females,Information Technology,218
+2000,Males,Accountancy,250
+2000,Males,Business & Administration,328
+2000,Males,Law,74
+2000,Males,"Natural, Physical & Mathematical Sciences",378
+2000,Males,Medicine,119
+2000,Males,Dentistry,17
+2000,Males,Health Sciences,11
+2000,Males,Information Technology,348
+2000,Females,Accountancy,495
+2000,Females,Business & Administration,851
+2000,Females,Law,79
+2000,Females,"Natural, Physical & Mathematical Sciences",655
+2000,Females,Medicine,37
+2000,Females,Dentistry,15
+2000,Females,Health Sciences,30
+2000,Females,Information Technology,187
+2001,Males,Accountancy,257
+2001,Males,Business & Administration,403
+2001,Males,Law,58
+2001,Males,"Natural, Physical & Mathematical Sciences",358
+2001,Males,Medicine,97
+2001,Males,Dentistry,19
+2001,Males,Health Sciences,17
+2001,Males,Information Technology,249
+2001,Females,Accountancy,484
+2001,Females,Business & Administration,807
+2001,Females,Law,96
+2001,Females,"Natural, Physical & Mathematical Sciences",754
+2001,Females,Medicine,42
+2001,Females,Dentistry,16
+2001,Females,Health Sciences,46
+2001,Females,Information Technology,133
+2002,Males,Accountancy,226
+2002,Males,Business & Administration,318
+2002,Males,Law,73
+2002,Males,"Natural, Physical & Mathematical Sciences",276
+2002,Males,Medicine,122
+2002,Males,Dentistry,23
+2002,Males,Health Sciences,20
+2002,Males,Information Technology,365
+2002,Females,Accountancy,541
+2002,Females,Business & Administration,751
+2002,Females,Law,77
+2002,Females,"Natural, Physical & Mathematical Sciences",699
+2002,Females,Medicine,60
+2002,Females,Dentistry,11
+2002,Females,Health Sciences,49
+2002,Females,Information Technology,199
+2003,Males,Accountancy,222
+2003,Males,Business & Administration,284
+2003,Males,Law,59
+2003,Males,"Natural, Physical & Mathematical Sciences",371
+2003,Males,Medicine,128
+2003,Males,Dentistry,21
+2003,Males,Health Sciences,15
+2003,Males,Information Technology,377
+2003,Females,Accountancy,524
+2003,Females,Business & Administration,693
+2003,Females,Law,81
+2003,Females,"Natural, Physical & Mathematical Sciences",742
+2003,Females,Medicine,66
+2003,Females,Dentistry,11
+2003,Females,Health Sciences,48
+2003,Females,Information Technology,242
+2004,Males,Accountancy,234
+2004,Males,Business & Administration,325
+2004,Males,Law,56
+2004,Males,"Natural, Physical & Mathematical Sciences",409
+2004,Males,Medicine,122
+2004,Males,Dentistry,14
+2004,Males,Health Sciences,11
+2004,Males,Information Technology,412
+2004,Females,Accountancy,387
+2004,Females,Business & Administration,742
+2004,Females,Law,91
+2004,Females,"Natural, Physical & Mathematical Sciences",781
+2004,Females,Medicine,77
+2004,Females,Dentistry,18
+2004,Females,Health Sciences,78
+2004,Females,Information Technology,309
+2005,Males,Accountancy,211
+2005,Males,Business & Administration,322
+2005,Males,Law,62
+2005,Males,"Natural, Physical & Mathematical Sciences",321
+2005,Males,Medicine,123
+2005,Males,Dentistry,22
+2005,Males,Health Sciences,16
+2005,Males,Information Technology,363
+2005,Females,Accountancy,495
+2005,Females,Business & Administration,799
+2005,Females,Law,125
+2005,Females,"Natural, Physical & Mathematical Sciences",674
+2005,Females,Medicine,86
+2005,Females,Dentistry,12
+2005,Females,Health Sciences,69
+2005,Females,Information Technology,199
+2006,Males,Accountancy,176
+2006,Males,Business & Administration,432
+2006,Males,Law,70
+2006,Males,"Natural, Physical & Mathematical Sciences",388
+2006,Males,Medicine,135
+2006,Males,Dentistry,18
+2006,Males,Health Sciences,24
+2006,Males,Information Technology,319
+2006,Females,Accountancy,468
+2006,Females,Business & Administration,819
+2006,Females,Law,134
+2006,Females,"Natural, Physical & Mathematical Sciences",880
+2006,Females,Medicine,94
+2006,Females,Dentistry,14
+2006,Females,Health Sciences,57
+2006,Females,Information Technology,130
+2007,Males,Accountancy,260
+2007,Males,Business & Administration,493
+2007,Males,Law,84
+2007,Males,"Natural, Physical & Mathematical Sciences",427
+2007,Males,Medicine,144
+2007,Males,Dentistry,21
+2007,Males,Health Sciences,19
+2007,Males,Information Technology,303
+2007,Females,Accountancy,575
+2007,Females,Business & Administration,894
+2007,Females,Law,123
+2007,Females,"Natural, Physical & Mathematical Sciences",827
+2007,Females,Medicine,83
+2007,Females,Dentistry,15
+2007,Females,Health Sciences,67
+2007,Females,Information Technology,190
+2008,Males,Accountancy,295
+2008,Males,Business & Administration,505
+2008,Males,Law,94
+2008,Males,"Natural, Physical & Mathematical Sciences",469
+2008,Males,Medicine,131
+2008,Males,Dentistry,18
+2008,Males,Health Sciences,10
+2008,Males,Information Technology,308
+2008,Females,Accountancy,536
+2008,Females,Business & Administration,960
+2008,Females,Law,115
+2008,Females,"Natural, Physical & Mathematical Sciences",796
+2008,Females,Medicine,96
+2008,Females,Dentistry,17
+2008,Females,Health Sciences,77
+2008,Females,Information Technology,210
+2009,Males,Accountancy,346
+2009,Males,Business & Administration,630
+2009,Males,Law,92
+2009,Males,"Natural, Physical & Mathematical Sciences",574
+2009,Males,Medicine,122
+2009,Males,Dentistry,12
+2009,Males,Health Sciences,22
+2009,Males,Information Technology,370
+2009,Females,Accountancy,596
+2009,Females,Business & Administration,857
+2009,Females,Law,118
+2009,Females,"Natural, Physical & Mathematical Sciences",946
+2009,Females,Medicine,97
+2009,Females,Dentistry,19
+2009,Females,Health Sciences,107
+2009,Females,Information Technology,162
+2010,Males,Accountancy,380
+2010,Males,Business & Administration,674
+2010,Males,Law,139
+2010,Males,"Natural, Physical & Mathematical Sciences",568
+2010,Males,Medicine,134
+2010,Males,Dentistry,16
+2010,Males,Health Sciences,39
+2010,Males,Information Technology,419
+2010,Females,Accountancy,554
+2010,Females,Business & Administration,859
+2010,Females,Law,90
+2010,Females,"Natural, Physical & Mathematical Sciences",1091
+2010,Females,Medicine,94
+2010,Females,Dentistry,25
+2010,Females,Health Sciences,196
+2010,Females,Information Technology,154
+2011,Males,Accountancy,332
+2011,Males,Business & Administration,633
+2011,Males,Law,121
+2011,Males,"Natural, Physical & Mathematical Sciences",619
+2011,Males,Medicine,136
+2011,Males,Dentistry,16
+2011,Males,Health Sciences,42
+2011,Males,Information Technology,388
+2011,Females,Accountancy,507
+2011,Females,Business & Administration,944
+2011,Females,Law,208
+2011,Females,"Natural, Physical & Mathematical Sciences",1217
+2011,Females,Medicine,119
+2011,Females,Dentistry,26
+2011,Females,Health Sciences,213
+2011,Females,Information Technology,195
+2012,Males,Accountancy,447
+2012,Males,Business & Administration,572
+2012,Males,Law,140
+2012,Males,"Natural, Physical & Mathematical Sciences",837
+2012,Males,Medicine,129
+2012,Males,Dentistry,21
+2012,Males,Health Sciences,61
+2012,Males,Information Technology,484
+2012,Females,Accountancy,589
+2012,Females,Business & Administration,825
+2012,Females,Law,207
+2012,Females,"Natural, Physical & Mathematical Sciences",1074
+2012,Females,Medicine,123
+2012,Females,Dentistry,21
+2012,Females,Health Sciences,218
+2012,Females,Information Technology,280
+2013,Males,Accountancy,399
+2013,Males,Business & Administration,693
+2013,Males,Law,189
+2013,Males,"Natural, Physical & Mathematical Sciences",870
+2013,Males,Medicine,134
+2013,Males,Dentistry,21
+2013,Males,Health Sciences,95
+2013,Males,Information Technology,542
+2013,Females,Accountancy,688
+2013,Females,Business & Administration,897
+2013,Females,Law,179
+2013,Females,"Natural, Physical & Mathematical Sciences",1257
+2013,Females,Medicine,124
+2013,Females,Dentistry,27
+2013,Females,Health Sciences,296
+2013,Females,Information Technology,250
+2014,Males,Accountancy,473
+2014,Males,Business & Administration,631
+2014,Males,Law,180
+2014,Males,"Natural, Physical & Mathematical Sciences",786
+2014,Males,Medicine,134
+2014,Males,Dentistry,15
+2014,Males,Health Sciences,124
+2014,Males,Information Technology,708
+2014,Females,Accountancy,649
+2014,Females,Business & Administration,846
+2014,Females,Law,176
+2014,Females,"Natural, Physical & Mathematical Sciences",1103
+2014,Females,Medicine,127
+2014,Females,Dentistry,30
+2014,Females,Health Sciences,309
+2014,Females,Information Technology,289

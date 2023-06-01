@@ -1,0 +1,219 @@
+#cursor {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	z-index: 9999;
+	background-image: url('../resources/cursor.png');
+	background-size: cover;
+}
+
+.heart-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 9999;
+}
+
+.heart {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url('../resources/heart.png');
+	background-size: cover;
+	transform: translateX(-50%) translateY(-50%);
+	animation: heart 1s ease-out;
+	pointer-events: none;
+}
+
+@keyframes heart {
+	0% {
+		transform: translateX(-50%) translateY(-50%) scale(0);
+	}
+	50% {
+		transform: translateX(-50%) translateY(-50%) scale(1);
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) scale(0);
+	}
+}
+
+.main-content {
+	margin: 50px auto;
+	max-width: 800px;
+	color: #333;
+	text-align: center;
+}
+
+a:hover, button:hover {
+	cursor: none;
+  }
+
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 10px;
+  }
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	cursor: none;
+	background-color: #fbf8f8;
+	color: #333;
+  }
+
+  .dark {
+	background-color: rgb(60, 60, 60);
+	color: rgb(185, 185, 185);
+  }
+
+  header {
+	background-color: #0071C5;
+	color: #fff;
+	padding: 20px;
+  }
+
+  h1, h2 {
+	margin: 0;
+  }
+
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+
+  nav li {
+	margin-right: 20px;
+  }
+
+  nav a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  main {
+	margin: 20px;
+  }
+
+  section {
+	margin-bottom: 40px;
+  }
+
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+  }
+
+
+#canvas-pie {
+    display: flex;
+    flex-direction: row;
+	width: 50%;
+    margin-left: 25%;
+}
+
+#canvas-bar {
+    padding-left: 20%;
+    padding-right: 20%;
+	height: 300px;
+	width: 900px;
+}
+
+#time-spent-chart {
+	width: 200px;
+	height: 200px;
+  }
+
+  #canvas-container {
+	position: relative;
+	height: 80%;
+	width: 80%;
+}
+
+
+  .form-container {
+	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+  }
+
+  .form-container label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 16px;
+  }
+
+  .form-container button[type="submit"] {
+	display: block;
+	padding: 10px 20px;
+	background-color: #4285F4;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+
+  .form-container button[type="submit"]:hover {
+	background-color: #3367D6;
+  }
+
+  .submit-button-container {
+	text-align: center;
+  }
+
+  .submit-button-container button[type="submit"] {
+	display: inline-block;
+	padding: 10px 50px;
+	background-color: #4285F4;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+
+  .submit-button-container button[type="submit"]:hover {
+	background-color: #3367D6;
+  }
+
+  #backToTopButton img {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border: none;
+	border-radius: 70%;
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+	width: 50px;
+	height: 50px;
+  }
+
+

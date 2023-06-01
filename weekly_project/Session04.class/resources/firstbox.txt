@@ -1,0 +1,11 @@
+//function declaration
+function myFunction() { 
+	// this function takes in no ARGUMENTS
+	var p1 = 5;
+	var p2 = 6; //defibut any number of arguments are possible
+	var prod = p1*p2; // this variable is declared inside the function so it does not exist once the function call ends
+ 
+	console.log(prod);   // The function prints the product of p1 and p2 to the console
+
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <title>flexbox layout</title>
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script>
+    </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header">
+        <p>header</p>
+      </header>
+
+      <nav class="sidebar">
+        <p>NAV</p>
+      </nav>
+
+      <article class="content">
+        <p>main</p>
+        <br>
+        <p>2.1 Warm up</p>
+        <p id="answer2-1"></p>
+        <br>
+        <p>2.2 Practice</p>
+        <h1>Fahrenheit to Celsius Converter</h1>
+        <p>Enter Fahrenheit temperature: <input type="text" id="fahrenheit" /></p>
+        <p>Celsius temperature: <input type="text" id="celsius" disabled /></p>
+        <button onclick="convertTemperature()">Convert</button>
+        <br>
+        <p>2.3 Challenge</p>
+        <p>m is: </p>
+        <p id="m">5</p>
+        <p>c is: </p>
+        <p id="c">2</p>
+        <p>E = m * c * c: </p>
+        <p id="e"></p>
+      </article>
+
+      <!-- Ditto the previous note about <aside>. -->
+      <aside class="sidebar">
+        <p>ASIDE</p>
+      </aside>
+
+      <footer class="footer">
+        <p>footer</p>
+      </footer>
+    </div>
+
+
+  </body>
+</html>
+

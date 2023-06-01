@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <title>Exploring the Relationship between Social Media Usage and Mental Health</title>
+	<link rel="stylesheet" type="text/css" href="css/appstyle.css">
+	<script defer type="text/javascript" src="appscripts/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Exploring the Relationship between Social Media Usage and Mental Health</h1>
+      <nav>
+        <ul>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#data-visualization">Data Visualization</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+          <li><a href="#references">References</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		  <button id="themeButton">Change Theme</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+		<div class="heart-container"></div>
+		<div id="cursor"></div>
+      <section id="background">
+        <h2>Background</h2>
+        <p>
+			Social media has become an increasingly popular tool for communication and self-expression, but
+			research has also suggested that excessive social media use can have negative effects on mental
+			health. Studies have found links between high levels of social media use and increased rates of
+			anxiety, depression, and loneliness, as well as poor sleep quality, low self-esteem, and social
+			comparison. While not all social media use is harmful, it's important for individuals to be mindful
+			of their social media habits and the potential impact on their mental health.
+		</p>
+		<div id="image-container"></div>
+		<p>
+			Based on the aforementioned background, it's clear that there is a need for further exploration of
+			the relationship between social media usage and mental health. This is where data visualization comes
+			in as a powerful tool for presenting complex information in a way that is easy to understand and interpret.
+			By analyzing survey data related to social media use and mental health, we can gain a deeper understanding
+			of the potential effects of social media on mental health and wellbeing. The data visualization section of
+			this website will present the findings of the survey data, using various visualization techniques to highlight
+			key patterns and trends in the data.
+		</p>
+		<div class="video-container">
+			<iframe width="800" height="500" src="https://www.youtube.com/embed/Czg_9C7gw0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+      </section>
+      <section id="data-visualization">
+        <h2>Data Visualization</h2>
+        <p>Let's look at the impact of using social media or not, here are some survey data from a survey</p>
+		<div id="canvas-pie">
+			<canvas id="gender"></canvas>
+		</div>
+		<p>
+			The pie chart shows the distribution of male and female respondents who completed a survey. The chart is divided
+			into two segments, one for males and one for females. The size of each segment corresponds to the number of
+			respondents in each group. In this particular survey, there were 208 male respondents and 259 female respondents.
+			The segment for males is colored blue, and the segment for females is colored red. When the user hovers over a segment,
+			it is offset from the center of the chart by a small distance to provide a visual cue. The chart title displays the total
+			number of male and female respondents in the survey, which is 467.
+		</p>
+		<div id="canvas-bar">
+			<canvas id="time-spent-chart"></canvas>
+		</div>
+		<p>
+			The bar chart shows the amount of time that survey respondents spent on social media in intervals of less than an hour
+			up to more than five hours. The x-axis lists these time intervals, while the y-axis represents the number of respondents
+			in each interval. The bars in the chart represent the number of survey respondents who reported spending the corresponding
+			amount of time on social media. The height of each bar corresponds to the number of respondents in each time interval.
+		</p>
+		<p>
+			According to the collected data, 33 respondents reported spending less than an hour on social media, while 69 respondents
+			reported spending between 1 and 2 hours on social media. Similarly, 96 respondents reported spending between 2 and 3 hours
+			on social media, 92 respondents reported spending between 3 and 4 hours, 65 respondents reported spending between 4 and 5 hours
+			, and 112 respondents reported spending more than 5 hours on social media.
+		</p>
+		<div id="canvas-bar">
+			<canvas id="my_chart_0" width="400" height="400"></canvas>
+		</div>
+		<p>
+			Firstly, we are examining the relationship between gender and the extent to which individuals are bothered by worries after using
+			social media. From the bar chart, we can observe that the patterns of worry among males and females are similar, but to some extent,
+			males may experience more evenly distributed levels of worry, whereas females may be more susceptible to worry caused by social media.
+		</p>
+		<div id="canvas-bar">
+			<canvas id="my_chart_1" width="400" height="400"></canvas>
+		</div>
+		<p>
+			Next, we are investigating the relationship between sleep issues and the amount of time spent on social media. The severity of
+			sleep issues is based on users' self-evaluation, with higher levels indicating more severe sleep problems. From the graph, it
+			is evident that users who spend less than 1 hour on social media are significantly less likely to experience sleep issues.
+			Additionally, we can observe that the shorter the amount of time spent on social media, the lower the severity of sleep issues.
+			However, when the time spent on social media exceeds 5 hours, the proportion of users with severe sleep problems noticeably increases.
+		</p>
+		<div id="canvas-bar">
+			<canvas id="my_chart_2" width="400" height="400"></canvas>
+		</div>
+		<p>
+			Furthermore, we are examining the relationship between users' levels of distraction and the amount of time spent on social media.
+			The severity of distraction is based on users' self-evaluation, with higher levels indicating greater levels of distraction.
+			From the graph, it is evident that users who spend less than 1 hour on social media are significantly less likely to experience distraction.
+			However, users who spend between 2 and 5 hours on social media appear to commonly experience distraction, with similar proportions of severity.
+			Nevertheless, users who spend more than 5 hours on social media are noticeably more prone to distraction, as indicated by the higher
+			proportions of Level 3, 4, and 5.
+		</p>
+		<div id="canvas-bar">
+			<canvas id="my_chart_3" width="400" height="400"></canvas>
+		</div>
+		<p>
+			Lastly, we investigated the relationship between difficulty concentrating and the amount of time spent on social media. From the graph,
+			it is evident that users who spend less than 1 hour on social media are significantly less likely to experience difficulty concentrating.
+			However, interestingly, a large majority of users who spend between 1 and 4 hours on social media experience moderate difficulty
+			concentrating, even more so than users who spend between 4 and 5 hours on social media. Nonetheless, users who spend more time on
+			social media, such as over 5 hours, are more prone to severe difficulty concentrating.
+		</p>
+      </section>
+      <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+			In conclusion, our research shows that there are clear relationships between social media use and various psychological issues.
+			Users who spend less than 1 hour on social media tend to experience less worries, sleep problems, and difficulty concentrating.
+			However, as the amount of time spent on social media increases, these issues become more prevalent and severe, particularly for
+			female users who are more susceptible to worries. While users who spend between 1 and 4 hours on social media tend to have the
+			highest prevalence of moderate psychological issues, users who spend over 5 hours are at the highest risk for severe problems.
+			Therefore, it is important to be mindful of our social media use and to limit our exposure to reduce the negative
+			impact on our mental health.
+		</p>
+      </section>
+      <section id="references">
+        <h2>References</h2>
+        <p>Data source: <a href="https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health">Social Media and Mental Health</a> by Souvik Ahmed</p>
+      </section>
+	  <section id="contact">
+        <h2>Contact</h2>
+		<div class="form-container">
+			<form>
+			  <label for="name">Your Name:</label>
+			  <input type="text" id="name" name="name" required>
+			  <label for="email">Your Email:</label>
+			  <input type="email" id="email" name="email" required>
+			  <label for="feedback">Feedback/Thoughts:</label>
+			  <textarea id="feedback" name="feedback" rows="5" required></textarea>
+			  <div class="submit-button-container">
+				<button type="submit">Submit</button>
+			  </div>
+			</form>
+		  </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Yifei Yue, NM2207 Final Project</p>
+	  <a id="backToTopButton" href="#">
+		<img src="resources/up.png" alt="Back to Top">
+	  </a>
+    </footer>
+  </body>
+</html>

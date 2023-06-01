@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <title>flexbox layout</title>
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script>
+    </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header">
+        <p>header</p>
+      </header>
+
+      <nav class="sidebar">
+        <p>NAV</p>
+      </nav>
+
+      <article class="content">
+        <h4>Part 1a: Functions with no arguments and no return values</h4>
+        <p>30</p>
+        <p>30</p>
+        <p>30</p>
+        <p>
+          1.8 The answers for 1.5-1.7 are the same, after my research, I found that in JavaScript,
+          functions are "hoisted" to the top of their scope. This means that even if you call a function
+          before it is defined, the JavaScript engine knows that it will be defined later in the code,
+          so it allows the call to go through. This is why it is possible to call a function before it
+          is defined in JavaScript. The function definition is processed first by the JavaScript engine,
+          and then the rest of the code is executed. This allows you to use a function before it is defined,
+          even if it is called before its declaration.
+        </p>
+
+        <h4>Part 1b: Functions with two arguments and no return value</h4>
+        <p>30. Although there's no arguments passed, but the p1 and p2 are defined inside the function, so the function will always print 30 unless we use the passed variables a and b.</p>
+        <p>30. As above.</p>
+        <p>30. The arguments 5 and 6 were passed to the function for calculation and printing.</p>
+
+        <h4>Part 1c: Functions with two arguments and one return value</h4>
+        <p>We need to use a variable to store the result and then print it. Because without the console.log(answer), the function will just return the result but not actually used.</p>
+
+        <h4>Part 2: Objects</h4>
+        <p id="part2"></p>
+
+        <h4>Part 3: Variable scope</h4>
+        <h5>Line 1 and Line 2 are in current position:</h5>
+        <p>
+
+
+          Post-function block: counter2's value is: 5<br>
+          Inside the function block: counter2's value is: 6<br><br>
+
+          counter2 is defined outside the function and assigned with 5. But only before using the counter2 inside the function, it is increased by 1.
+        </p>
+
+        <h5>Line 2 is inside function block BEFORE “counter2 = counter2+1” expression:</h5>
+        <p>
+          Post-function block: counter2's value is: undefined<br>
+          Inside the function block: counter2's value is: 6<br><br>
+
+          counter2 is only defined inside the function and assigned with 5. But before using the counter2, it is increased by 1.
+
+        </p>
+
+        <h5>Line 2 is inside function block AFTER “counter2 = counter2+1” expression:</h5>
+        <p>
+          Post-function block: counter2's value is: undefined<br>
+          Inside the function block: counter2's value is: 5<br><br>
+
+          counter2 is only defined inside the function, and also 5 is assigned finally before the counter2 is used.
+
+        </p>
+
+        <h5>Line 2 is in post-function block, after function call:</h5>
+        <p>
+          Post-function block: counter2's value is: undefined<br>
+          Inside the function block: counter2's value is: NaN<br><br>
+
+          counter 2 is not defined inside the function, so the result is NaN. And counter2 is only defined outside the function but not initialized, so the result is undefined.
+
+        </p>
+
+        <h4>Part 4: Initializing objects</h4>
+        <p id="part4"></p>
+      </article>
+
+      <!-- Ditto the previous note about <aside>. -->
+      <aside class="sidebar">
+        <p>ASIDE</p>
+      </aside>
+
+      <footer class="footer">
+        <p>footer</p>
+      </footer>
+    </div>
+
+
+  </body>
+</html>
+
